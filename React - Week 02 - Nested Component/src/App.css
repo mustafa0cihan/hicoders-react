@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color:#88DBD6;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table{
+  margin: 20px;
+  width: auto;
+}
+th {
+  font-size: small;
+  width: 220px;
+  padding: .5rem .5rem;
+}
+td{
+  padding:7px;
+  border: 2px solid black;
+  font-size:small;
+  
+}
+thead{
+  margin: 20px;
+}
+
+img{
+  width:60px;
+}
+.avatar{
+  width: 80px;
+}
+
+h4{
+  color:#1D5C58;
+}
+h2{
+  color:#120a8f;
+}
+
+.bg-secondary, .bg-warning{
+  margin: 10px;
+}
+.personel{
+  background-color:#DB9693;
+  margin: 10px;
+}
+
+.container{
+  margin:auto;
+  margin-top: 20px;
+  background-color:#88DBD6;
+}
