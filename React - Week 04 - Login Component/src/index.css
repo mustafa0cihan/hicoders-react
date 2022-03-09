@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+main {
+  margin: 20vh;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.form-group input {
+  width: 40vh;
+  margin-bottom: 30px;
+}
+
+
+h2 {
+  color: rgb(17, 1, 156);
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-left: 30vh;
+}
+.showDataStyle {
+  font-weight: 500;
+  margin-top: 5vh;
+  background-color: rgb(54, 181, 231);
+}
