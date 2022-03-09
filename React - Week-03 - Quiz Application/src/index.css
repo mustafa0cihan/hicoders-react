@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  border:1px solid black;
+  border-radius: 8px;
+  width: 20vw;
+  margin: auto;
+  margin-top: 5vh;
+  color:antiquewhite;
+  background-color: rgb(38, 18, 221);
+}
+
+.Options {
+  margin: 10px;
+  background-color: rgb(14, 226, 25);
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#test {
+  font-size: 15px;
+  border: 1px solid black;
+  width: 5vw;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: rgb(243, 231, 62);
+  color:black;
+  padding: 5px;
+  border-radius: 8px;
+}
+#detail {
+  border: 1px solid black;
+  width: 10vw;
+  margin: auto;
+  margin-top: 4vh;
+  padding: 5px;
+  background-color: rgb(1, 1, 7);
+  color: white;
+}
+#next-question {
+width: 10vw;
+background-color: rgb(70, 70, 204);
+color: white;
+border-radius: 5px;
+margin-top: 5vh;
+font-size: 18px;
+}
+.valid-part {
+display: flex;
+flex-direction: column;
+margin-left: 550px;
+margin-right: 450px;
+margin-top: 20px;
+}
+
+.valid-part p {
+  border: 1px solid black;
+  width: 10vw;
+  color: white;
+  background-color: rgb(65, 199, 65);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#falsch {
+  background-color: rgb(209, 13, 13);
+}
